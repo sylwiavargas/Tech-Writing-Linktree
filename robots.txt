@@ -1,3 +1,0 @@
-# Allow Twitterbot
-User-agent: Twitterbot
-Allow: *
