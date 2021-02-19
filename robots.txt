@@ -1,0 +1,7 @@
+# Block all but AdsBot crawlers
+User-agent: *
+Disallow: /
+
+# Allow Twitterbot
+User-agent: Twitterbot
+Allow: *
