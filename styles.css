@@ -1,0 +1,81 @@
+body {
+    background: rgb(98,36,241);
+background: linear-gradient(151deg, rgba(98,36,241,1) 19%, rgba(103,225,214,1) 100%);
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 20vh;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+}
+    
+.profile {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;   
+    margin: 0;
+}
+
+.name{
+    padding: 30 30 7 30px;
+}
+
+.motto{
+    padding: 7 30 30 30px;
+    font-weight: normal;
+}
+
+.header{
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    /* width: 290px; */
+    max-width: 70vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-width: 2px;
+    width: 290px;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.bottom-text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000;
+    background: #fff;
+}
