@@ -1,6 +1,6 @@
 body {
     background: rgb(98, 36, 241);
-background: linear-gradient(151deg, rgba(98,36,241,1) 19%, rgba(103,225,214,1) 100%);
+background: linear-gradient(151deg, #6224f1 19%, #67e1d6 100%);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
@@ -26,6 +26,10 @@ img {
     font-size: 15px;
     letter-spacing: 2px;   
     margin: 0;
+}
+
+a.profile:hover{
+    color: #000;
 }
 
 .name{
@@ -60,12 +64,28 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
+    text-decoration: none;
 }
 
 a {
-    text-decoration: none;
     color: white;
     transition: color 0.5s;
+}
+
+a.links:hover {
+    color: #000;
+    background: #fff;
+}
+
+.fa_custom {
+    color: #6224f1;
+    margin-top: 60px;
+    text-align: center; 
+    width: 100%; 
+}
+
+a i:hover{
+    color: #fbdd3b;
 }
 
 .bottom-text {
@@ -75,7 +95,3 @@ a {
     font-weight: bold;
 }
 
-a:hover {
-    color: #000;
-    background: #fff;
-}
