@@ -1,6 +1,6 @@
 # Tech Writing Linktree
 
-I was sad to see the current linktree setup doesn't allow me to categorize my links. I built a linktree-like page for myself to host my tech writing portfolio. The page is responsive and light (html/css only)
+I wanted a tech writing portfolio page like linktree but with the ability to group my links in categories so I built one. The page is responsive and light (html/css only)
 
 ✨ Feel free to use it as a template! ✨
 
@@ -8,10 +8,11 @@ I was sad to see the current linktree setup doesn't allow me to categorize my li
 
 - fork this repo and clone it
 - in the `index.html` file change:
-  - the metatags so that they link to your profile picutres, twitter page, etc.,
-  - headers and links
-- in the `styles.css` file change colors and whatever else your soul wishes
-- deploy! I usually deploy such projects on [netlify](netlify.com) or [surge](surge.sh) because it takes very little time
+  - the metatags so that they link to your profile picutres, twitter page, etc., (lines 6-25)
+  - headers and links (lines 28-52)
+  - console message (lines 53-70)
+- in the `styles.css` file change colors and play with css if you feel like it
+- deploy! I usually deploy such projects on [netlify](netlify.com) or [surge](surge.sh) because they take very little time
 
 ## Favicon set credits
 
